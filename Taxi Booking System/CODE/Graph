@@ -8,7 +8,7 @@
         graph.put("E", Arrays.asList(new Edge("C", 8)));
 
         List<String> path = shortestPath("B", "E");
-        System.out.println(path);  // Output: [A, C, D, E]
+        System.out.println(path); 
 
     }
 
